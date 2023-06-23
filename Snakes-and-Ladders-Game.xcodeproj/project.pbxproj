@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC79FD932A4580D000E94A25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC79FD922A4580D000E94A25 /* AppDelegate.swift */; };
+		CC79FD952A4580D000E94A25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC79FD942A4580D000E94A25 /* SceneDelegate.swift */; };
+		CC79FD9A2A4580D000E94A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC79FD982A4580D000E94A25 /* Main.storyboard */; };
+		CC79FD9C2A4580D100E94A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC79FD9B2A4580D100E94A25 /* Assets.xcassets */; };
+		CC79FD9F2A4580D100E94A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC79FD9D2A4580D100E94A25 /* LaunchScreen.storyboard */; };
+		CC79FDA72A45852200E94A25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC79FDA62A45852200E94A25 /* LoginViewController.swift */; };
+		CC79FDA92A4585F700E94A25 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC79FDA82A4585F700E94A25 /* SignUpViewController.swift */; };
+		CC79FDAB2A45860900E94A25 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC79FDAA2A45860900E94A25 /* ForgotPasswordViewController.swift */; };
+		CC79FDB12A45B17500E94A25 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC79FDB02A45B17500E94A25 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC79FD8F2A4580D000E94A25 /* Snakes-and-Ladders-Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snakes-and-Ladders-Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC79FD922A4580D000E94A25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC79FD942A4580D000E94A25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC79FD992A4580D000E94A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC79FD9B2A4580D100E94A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC79FD9E2A4580D100E94A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC79FDA02A4580D100E94A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC79FDA62A45852200E94A25 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CC79FDA82A4585F700E94A25 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CC79FDAA2A45860900E94A25 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		CC79FDB02A45B17500E94A25 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC79FD8C2A4580D000E94A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC79FD862A4580D000E94A25 = {
+			isa = PBXGroup;
+			children = (
+				CC79FD912A4580D000E94A25 /* Snakes-and-Ladders-Game */,
+				CC79FD902A4580D000E94A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC79FD902A4580D000E94A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC79FD8F2A4580D000E94A25 /* Snakes-and-Ladders-Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC79FD912A4580D000E94A25 /* Snakes-and-Ladders-Game */ = {
+			isa = PBXGroup;
+			children = (
+				CC79FD922A4580D000E94A25 /* AppDelegate.swift */,
+				CC79FD942A4580D000E94A25 /* SceneDelegate.swift */,
+				CC79FDB22A45B17C00E94A25 /* User */,
+				CC79FDAE2A45901500E94A25 /* LoginAndRegistration */,
+				CC79FD982A4580D000E94A25 /* Main.storyboard */,
+				CC79FD9B2A4580D100E94A25 /* Assets.xcassets */,
+				CC79FD9D2A4580D100E94A25 /* LaunchScreen.storyboard */,
+				CC79FDA02A4580D100E94A25 /* Info.plist */,
+			);
+			path = "Snakes-and-Ladders-Game";
+			sourceTree = "<group>";
+		};
+		CC79FDAE2A45901500E94A25 /* LoginAndRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				CC79FDA82A4585F700E94A25 /* SignUpViewController.swift */,
+				CC79FDA62A45852200E94A25 /* LoginViewController.swift */,
+				CC79FDAA2A45860900E94A25 /* ForgotPasswordViewController.swift */,
+			);
+			path = LoginAndRegistration;
+			sourceTree = "<group>";
+		};
+		CC79FDB22A45B17C00E94A25 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CC79FDB02A45B17500E94A25 /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC79FD8E2A4580D000E94A25 /* Snakes-and-Ladders-Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC79FDA32A4580D100E94A25 /* Build configuration list for PBXNativeTarget "Snakes-and-Ladders-Game" */;
+			buildPhases = (
+				CC79FD8B2A4580D000E94A25 /* Sources */,
+				CC79FD8C2A4580D000E94A25 /* Frameworks */,
+				CC79FD8D2A4580D000E94A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snakes-and-Ladders-Game";
+			productName = "Snakes-and-Ladders-Game";
+			productReference = CC79FD8F2A4580D000E94A25 /* Snakes-and-Ladders-Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC79FD872A4580D000E94A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CC79FD8E2A4580D000E94A25 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CC79FD8A2A4580D000E94A25 /* Build configuration list for PBXProject "Snakes-and-Ladders-Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC79FD862A4580D000E94A25;
+			productRefGroup = CC79FD902A4580D000E94A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC79FD8E2A4580D000E94A25 /* Snakes-and-Ladders-Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC79FD8D2A4580D000E94A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC79FD9F2A4580D100E94A25 /* LaunchScreen.storyboard in Resources */,
+				CC79FD9C2A4580D100E94A25 /* Assets.xcassets in Resources */,
+				CC79FD9A2A4580D000E94A25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC79FD8B2A4580D000E94A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC79FDA72A45852200E94A25 /* LoginViewController.swift in Sources */,
+				CC79FDAB2A45860900E94A25 /* ForgotPasswordViewController.swift in Sources */,
+				CC79FDB12A45B17500E94A25 /* User.swift in Sources */,
+				CC79FD932A4580D000E94A25 /* AppDelegate.swift in Sources */,
+				CC79FD952A4580D000E94A25 /* SceneDelegate.swift in Sources */,
+				CC79FDA92A4585F700E94A25 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC79FD982A4580D000E94A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC79FD992A4580D000E94A25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC79FD9D2A4580D100E94A25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC79FD9E2A4580D100E94A25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC79FDA12A4580D100E94A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC79FDA22A4580D100E94A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC79FDA42A4580D100E94A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WS26NXG635;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snakes-and-Ladders-Game/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Snakes-and-Ladders.Snakes-and-Ladders-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC79FDA52A4580D100E94A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WS26NXG635;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snakes-and-Ladders-Game/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Snakes-and-Ladders.Snakes-and-Ladders-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC79FD8A2A4580D000E94A25 /* Build configuration list for PBXProject "Snakes-and-Ladders-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC79FDA12A4580D100E94A25 /* Debug */,
+				CC79FDA22A4580D100E94A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC79FDA32A4580D100E94A25 /* Build configuration list for PBXNativeTarget "Snakes-and-Ladders-Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC79FDA42A4580D100E94A25 /* Debug */,
+				CC79FDA52A4580D100E94A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC79FD872A4580D000E94A25 /* Project object */;
+}
